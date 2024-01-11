@@ -12242,9 +12242,9 @@ textarea.form-control-lg {
     .header {
       display: block; } }
   .header.header-transparent-bg:not(.header_sticky-active) {
-    background: transparent; }
+    background: black; }
   .header.header_dark {
-    background-color: #222222; }
+    background-color: black; }
     .header.header_dark .navigation__link {
       color: #fff; }
     .header.header_dark .header-tools__item {
@@ -12636,7 +12636,7 @@ textarea.form-control-lg {
 .header_sticky-active {
   position: fixed;
   animation: moveDown .5s;
-  background-color: #ffffff;
+  background-color: black;
   box-shadow: 0 8px 25px 0 rgba(140, 152, 164, 0.15);
   z-index: 1020; }
   .header_sticky-active.header_sticky-bg_dark {
